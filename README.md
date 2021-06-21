@@ -11,8 +11,8 @@ by default for ES languages JavaScript, Flow, and TypeScript, all in a
 Includes options from **[prettierX](https://github.com/brodybits/prettierx)** for
 improved parity with **["Standard JS"](https://standardjs.com/)**, for example:
 
-```js
-function * a () {}
+```typescript
+function * a (b: number) {}
 
 console.log(typeof a)
 ```
